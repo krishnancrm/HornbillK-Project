@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HornbillK</string>
+    <string name="login_title">Hornbill.K Login</string>
+    <string name="api_key">API Key</string>
+
+
+    <string name="N">Camera 1 Feed</string>
+    <string name="NW">Camera 2 Feed</string>
+    <string name="NE">Camera 3 Feed</string>
+    <string name="S">Camera 4 Feed</string>
+
+</resources>

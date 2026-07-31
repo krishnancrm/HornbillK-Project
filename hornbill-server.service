@@ -1,0 +1,15 @@
+[Unit]
+Description=HornbillK System Monitoring Server
+After=network.target
+
+[Service]
+Type=simple
+User=arduino
+WorkingDirectory=/home/arduino/hornbillk_server_root/HornbillServer
+ExecStart=/usr/bin/python3 /home/arduino/hornbillk_server_root/HornbillServer/ard_server.py
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1 HOME=/home/arduino
+
+[Install]
+WantedBy=multi-user.target
